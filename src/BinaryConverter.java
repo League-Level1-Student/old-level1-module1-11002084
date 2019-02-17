@@ -50,6 +50,7 @@ public class BinaryConverter implements ActionListener {
 		JButton button = new JButton();
 		button.addActionListener(this);
 		panel.add(button);
+		panel.add(label);
 		frame.add(panel);
 		frame.setTitle("computer to human");
 		button.setText("CONVERT NOW");
